@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escape with me</title>
+<style>
+* {box-sizing: border-box;}
+/*header class ----------------------------------------------------------------------------*/
+#main { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color:#778899;
+  color: white;
+}
+
+.header a.active {
+  background-color:#37474f ;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+
+/*button class-------------------------------------------------------------------------------------*/
+
+
+.container{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    background-image: linear-gradient(#D3D3D3,#778899 )
+}
+
+/* responsive------------------------------------------------------------------------------------*/
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+<div class = "container" >
+
+    <div class="header" image= "linear-gradient(#D3D3D3,#778899 )">
+        <a href="#default" class="logo">CompanyLogo</a>
+            <div class="header-right">
+                <a class="active" href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="#puzzle">Puzzle</a>
+            </div>
+
+        
+        
+    </div>
+    <div  align='center'>
+        <p>Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids, fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. The Great Escape Room Tampa is located downtown, near Riverwalk on Madison Street right across from the police station – walking distance to dozens of restaurants and bars to make The Great Escape Room part of your night out in Tampa! </p>
+        
+    </div>
+</div>
+</body>
+</html>
