@@ -1,74 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Escape With me</title>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Escape with me</title>
-<style>
-* {box-sizing: border-box;}
-/*header class ----------------------------------------------------------------------------*/
-#main { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header a:hover {
-  background-color:#778899;
-  color: white;
-}
-
-.header a.active {
-  background-color:#37474f ;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-
-/*button class-------------------------------------------------------------------------------------*/
-
-
-.container{
-    font-family:Brush Script MT, Brush Script Std, cursive;
-    background-image: linear-gradient(#D3D3D3,#778899 )
-}
-
-/* responsive------------------------------------------------------------------------------------*/
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
-</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- linking javascript to HTMl -->
+<script type="text/javascript" src="./main.js"></script>
+<!-- linking stylesheet to HTMl -->
+<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <div class = "container" >
@@ -81,14 +26,46 @@
                 <a href="#about">About</a>
                 <a href="#puzzle">Puzzle</a>
             </div>
+    </div>
 
-        
-        
-    </div>
-    <div  align='center'>
-        <p>Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids, fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. The Great Escape Room Tampa is located downtown, near Riverwalk on Madison Street right across from the police station – walking distance to dozens of restaurants and bars to make The Great Escape Room part of your night out in Tampa! </p>
-        
-    </div>
+    <div  class="main" align='center'>
+        <p>  Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
+             fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
+             The Great Escape Room Tampa is located downtown,
+             near Riverbank on Madison Street right across from the police station – 
+             walking distance to dozens of restaurants and bars to make The Great Escape Room part of your night out in Tampa! 
+             Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
+             fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
+             The Great Escape Room Tampa is located downtown,
+             near River walk on Madison Street right across from the police station – 
+             walking distance to dozens of restaurants and bars to make The Great Escape Room part of your night out in Tampa! 
+             welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
+             fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
+             <span id="dots">...</span>
+             <span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+                 Sed dapibus pulvinar nibh tempor porta.
+             </span>
+        </p>
+        <button onclick="myFunction()"  class="button button1">Read more</button>
+        <br>
+
+        <!-- <div class="row">
+            <div class="col-md-4 col-lg-2">
+                <button align= "center" class="btn btn-primary  btn-block">Sign up</button>
+            </div>
+        </div> -->
+        <button class="button button1">Play</button>
+       
+        <!-- <img src="escape room.jpg" alt="Escape With Me"> -->
+
+        <div class="icon-bar">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+            <a href="#" class="google"><i class="fa fa-google"></i></a> 
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+        </div>
+
 </div>
 </body>
 </html>
