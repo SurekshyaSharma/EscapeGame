@@ -2,10 +2,7 @@
 
 * {box-sizing: border-box;}
 /*header class ----------------------------------------------------------------------------*/
-#main { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .header {
   overflow: hidden;
@@ -73,15 +70,14 @@
 
 .container{
     font-family:Brush Script MT, Brush Script Std, cursive;
+   
     /* background-image: linear-gradient(#D3D3D3,#778899 ) */
     /* background-image: url("1.jpg"); */
     /* opacity: 100%; */
 }
-img{
-    float :right;
-}
 
-/* responsive------------------------------------------------------------------------------------*/
+
+/* responsive---------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -93,10 +89,10 @@ img{
     float: none;
   }
 }
-/*icon bar------------------------------------------------------------------------------------*/
+/*icon bar------------------------------------------------------------------------------------------------------------------------------------*/
 .icon-bar {
     position: fixed;
-    top: 60%;
+    top:60%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -144,10 +140,27 @@ img{
     margin-left: 75px;
     font-size: 30px;
   }
-  form {
-    max-width: 900px;
-    display: block;
-    margin: 0 auto;
-  }
+
   /*see more-----------------------------------------------------------------------------------*/
   #more {display: none;}
+  /*footer------------------------------------------------------------------*/
+  #footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+ /**div right and left--------------------------------------------------------------------*/
+ .left {
+    float:left;
+    
+    
+}
+
+.right {
+    float:right;
+    width:400px;
+}
