@@ -73,7 +73,7 @@
 
 .container{
     font-family:Brush Script MT, Brush Script Std, cursive;
-    background-image: linear-gradient(#D3D3D3,#778899 )
+    /* background-image: linear-gradient(#D3D3D3,#778899 ) */
     /* background-image: url("1.jpg"); */
     /* opacity: 100%; */
 }
