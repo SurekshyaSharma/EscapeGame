@@ -17,3 +17,23 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
+
+function display(form){
+  if (form.username.value=="root") { 
+      if (form.password.value=="root") {              
+          location="page2.html" 
+      } else {
+           alert("Invalid Password")
+      }
+  } else {  alert("Invalid Username")
+    }
+}
+
+function mynav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
