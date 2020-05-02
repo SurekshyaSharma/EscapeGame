@@ -4,6 +4,7 @@
 
 .container{
   font-family:Brush Script MT, Brush Script Std, cursive;
+  
  
   /* background-image: linear-gradient(#D3D3D3,#778899 ) */
   /* background-image: url("1.jpg"); */
@@ -61,7 +62,7 @@
   }
 }
 /*button class----------------------------------------------------------------------------------------------------------------------*/
-#myBtn:{
+#myBtn{
   background-color: none;
 }
 /*icon bar------------------------------------------------------------------------------------------------------------------------------------*/

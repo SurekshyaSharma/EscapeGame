@@ -1,7 +1,7 @@
 $(document).ready( function () {
   var myVideo = document.getElementById("video1"); 
    });
-// ----------See more-----------------------------------------------------------------------------------------------
+// ----------See more- button----------------------------------------------------------------------------------------------
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -58,24 +58,15 @@ function makeSmall() {
 function makeNormal() { 
     myVideo.width = 420; 
 } 
-// ----------------------------------------------------------------------------------------------------------------
+// --------------------------------sign up--------------------------------------------------------------------------------
 
-
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); 
-} 
-
-function makeBig() { 
-    myVideo.width = 560; 
-} 
-
-function makeSmall() { 
-    myVideo.width = 320; 
-} 
-
-function makeNormal() { 
-    myVideo.width = 420; 
-} 
+ // Get the modal
+ var modal = document.getElementById('id01');
+      
+ // When the user clicks anywhere outside of the modal, close it
+ window.onclick = function(event) {
+   if (event.target == modal) {
+     modal.style.display = "none";
+   }
+ }
+//-------------------------------------------------------------------------------------------------------
