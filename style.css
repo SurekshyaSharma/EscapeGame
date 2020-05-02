@@ -3,6 +3,7 @@
 * {box-sizing: border-box;}
 body{
   background-image: linear-gradient(to right,#37474f,gray);
+  border-radius: 5px;
 }
 .container{
   /* font-family:Brush Script MT, Brush Script Std, cursive; */
@@ -65,9 +66,10 @@ body{
   }
 }
 /*button class----------------------------------------------------------------------------------------------------------------------*/
-#myBtn{
+/* #myBtn{
   background-color: none;
-}
+} */
+
 /*icon bar------------------------------------------------------------------------------------------------------------------------------------*/
 .icon-bar {
     position: fixed;
