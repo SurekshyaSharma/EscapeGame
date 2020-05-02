@@ -148,6 +148,10 @@ body{
   float:center;
   
 }
+/* game-paortal */
+.gamePortal{
+  display: none;
+}
 
 /* sign up ---------------------------------------------------------------------------------------------------------------- */
 input[type=text], input[type=password] {
@@ -228,7 +232,7 @@ hr {
 
 .close:hover,
 .close:focus {
-  color: #f44336;
+  color: #333;
   cursor: pointer;
 }
 

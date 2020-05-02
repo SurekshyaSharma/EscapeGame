@@ -69,4 +69,13 @@ function makeNormal() {
      modal.style.display = "none";
    }
  }
-//-------------------------------------------------------------------------------------------------------
+
+// login button--------------------------------------------------------------------------------------------------
+var gamePortal = document.getElementById('login');
+      
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == gamePortal) {
+    gamePortal.style.display = "none";
+  }
+}
