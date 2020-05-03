@@ -140,21 +140,18 @@ body{
     text-align: center;
  } */
  /**div right and left--------------------------------------------------------------------*/
+ .main{
+
+
+ }
  .left {
     float:left;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
+
 }
 
 .right {
     float:right;
-    width:400px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
+ 
     
 }
 .center {
