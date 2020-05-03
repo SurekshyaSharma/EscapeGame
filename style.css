@@ -8,11 +8,16 @@ body{
 .container{
   /* font-family:Brush Script MT, Brush Script Std, cursive; */
  
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
   
  
   /* background-image: linear-gradient(#D3D3D3,#778899 ) */
   /* background-image: url("1.jpg"); */
   /* opacity: 100%; */
+  
 }
 /*-----------------------------------------navigatip-----------------------------------------------------------------------------------------*/
 .topnav {
