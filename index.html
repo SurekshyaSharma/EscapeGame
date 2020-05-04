@@ -1,68 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="author" content="Surekshya Sharma">
-        <title>Escape Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- linking javascript to HTMl -->
+    <script type="text/javascript" src="./login.js"></script>
+    <!-- boostrap button default -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- linking javascript to HTMl -->
+    <script type="text/javascript" src="./login.js"></script>
+    <!-- linking stylesheet to HTMl -->
+    <link rel="stylesheet" href="./s.css">
 
-        <!-- boostrap button default -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        
-        <!-- linking javascript to HTMl -->
-        <script type="text/javascript" src="./main.js"></script>
-        <!-- linking stylesheet to HTMl -->
-        <link rel="stylesheet" href="./style.css">
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
-      <div class= container>
+        <!-- Top navigation -->
         <div class="topnav" id="myTopnav">
             <a href="#home" class="active">Home</a>
-            <a href="#">Rooms</a>
-            <a href="#">Booking</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="mynav()"><i class="fa fa-bars"></i></a>
+            <a href="./rooms.html">Rooom</a>
+            <a href="./booking.html">Booking</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myTopNav()">
+                <i class="fa fa-bars"></i></a>
         </div>
+        <!-- Top navigation finish -->
 
-          <div id ="main">
-              <div class=right> 
-
-                  <p>
-                     Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
-                fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
-                The Great Escape Room Tampa is located downtown,
-                near Riverbank on Madison Street right across from the police station – 
-                walking distance to dozens of restaurants and bars to make The Great Escape Room part of your night out in Tampa! 
-                Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
-                fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
-            
-                <span id="dots">...</span>
-                <span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. 
-                    Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
-                    Sed dapibus pulvinar nibh tempor porta.
-                </span>
-            </p>
-            <button onclick="myFunction()"  id="myBtn">See more</button><br><br>
-                
-                   
-              </div><!-- end class="right"-->
-              
-
-              <div  class="left">  <!-- start class="left"-->
-                <img src="1.jpg"  alt="Escape here" class="responsiveImage" width="600" height="400">
+        <div id ="container" class="w3-border">
+            <div style="padding-left:16px" class="w3-container w3-margin w3-white">
+                <p>
+                    Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
+                    fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
+                    The Great Escape Room Tampa is located downtown,near Riverbank on Madison Street right across from the police station – 
+                    walking distance to dozens of restaurants and bars to make The Great Escape Room part of your night out in Tampa! 
+                    Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
+                    fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
+                    near River walk on Madison Street right across from the police station – 
+                    walking distance to dozens of restaurants and bars to make The Great Escape Room part of your night out in Tampa! 
+                    welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
+                    fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
+                    Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids
+                    <span id="dots">...</span>
+                    <span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. 
+                        Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+                        Sed dapibus pulvinar nibh tempor porta.
+                    </span>
+                </p>
+                <button onclick="seeMore()"  id="myBtn">See more</button><br><br>
+            </div>
+        
+            <img src="1.jpg"  alt="Escape here" class="responsiveImage" width="600" height="400" class="w3-container w3-margin w3-white">
                 
                   <form class="form" method="post" action="#" align="center" >
-                  <br><br>
+                  <br>
                   <h6>Login to Play</h6>
                   <label for="uname"><b></b></label>
                   <input type="text" placeholder="Enter Username" name="uname"><br>
@@ -79,42 +77,36 @@
                     <form class="gameportal-content" action="/action_page.php">
                       <div class="signupform" align="left">
                       <h1 color="red">Welcome to the GamePortal</h1>
-                      </div> <!--gameportal-->  
+                      </div><!-- modal-->  
                   <!-- test -->
                   <br>
                     
                       <!-- sign up  page-->
-                  <div id="id01" class="modal">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                    <form class="modal-content" action="/action_page.php">
-                      <div class="signupform" align="left">
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content" action="/action_page.php">
+                    <div class="signupform" align="left">
                         <h1>Sign Up</h1>
                         <p>Please fill in this form to create an account.</p>
-                        <hr>
+                        
                         <label for="email"><b>Name </b></label>
                         <input type="text" placeholder="Enter name" name="name"><br>
 
                         <label for="psw"><b>Phonenumber</b></label>
                         <input type="password" placeholder="Phonenumber" name="psw"><br>
-                        
-                        <label>
-                          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-                        </label>
 
                         <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
                         <div class="clearfix">
-                          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                          <button type="submit" class="signupbtn">Sign Up</button>
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <button type="submit" class="signupbtn">Sign Up</button>
                         </div><!-- end clearfix-->
-                      </div><!-- modal-->  
-                    </form>
-              </div> <!-- end  class="left"-->  
-              <div class=center>center</div>
-            
-            <br>
-          </div>
-      <!-- footer -->
+                    </div><!-- modal-->  
+                </form>
+            </div> 
+        </div>      
+        
+        <!-- footer -->
       
         <div class="footer">
             <!-- Grid row-->
@@ -155,7 +147,5 @@
             <!-- Grid row-->
     
           </div><!--  end footer -->
-    
-      </div> <!-- end container div -->
     </body>
 </html>
