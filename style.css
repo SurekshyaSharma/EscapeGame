@@ -117,9 +117,7 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #f1f1f1;
   outline: none;
 }
-.btn btn-secondary btn-sm{
-  background: #37474f;
-}
+
 
 /* Set a style for all buttons */
 button {
