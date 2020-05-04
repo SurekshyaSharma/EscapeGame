@@ -117,10 +117,13 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #f1f1f1;
   outline: none;
 }
+.btn btn-secondary btn-sm{
+  background: #37474f;
+}
 
 /* Set a style for all buttons */
 button {
-  background: linear-gradient(#778899 5%, #778899 100%);
+  /* background: #37474f; */
   border: 2px solid linear-gradient(#778899 5%, #778899 100%);
 }
 
