@@ -71,7 +71,7 @@ function makeNormal() {
  }
 
 // login button--------------------------------------------------------------------------------------------------
-var gamePortal = document.getElementById('login');
+var gamePortal = document.getElementById('signIn');
       
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {

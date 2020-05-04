@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,18 +18,19 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-    <div class= container>
+      <div class= container>
         <div class="topnav" id="myTopnav">
             <a href="#home" class="active">Home</a>
-            <a href="#news">Puzzles</a>
+            <a href="#news">Rooms</a>
             <a href="#booking">Booking</a>
             <a href="#puzzle">Contact</a>
             <a href="#about">About</a>
             <a href="javascript:void(0);" class="icon" onclick="mynav()"><i class="fa fa-bars"></i></a>
         </div>
 
-        <div id ="main">
+          <div id ="main">
             <div  class="right">  <!-- start  class="right"-->
+              <img src="1.jpg"  alt="Escape here" class="responsiveImage" width="600" height="400">
                 <p> Welcome to the Great Escape Room! Tampa Bay’s favorite destination when you’re looking for new things to do with your kids,
                     fun things to do with your family, challenging things to do with your friends or a fun idea for date-night. 
                     The Great Escape Room Tampa is located downtown,
@@ -55,12 +55,9 @@
               
             </div> <!-- end class="right"-->
             <div class=center>
-              
             </div>
-                
-                
             <div  class="left" align="center">  <!-- start class="left"-->
-                <!-- <img src="escape room.jpg" alt="Escape here"> -->
+               
                 <form class="form" method="post" action="#">
                 <br>
                 <br>
@@ -69,8 +66,16 @@
 
                 <label></label>
                 <input type="password" name="password" placeholder="Password" id="Password"><br><br>
-                <input type="button" name="login" id="login" value="Login">
+                <button  onclick="document.getElementById('signIn').style.display='block'" style="width:auto;"> Login</button>
                 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+                <!-- test -->
+                <div id="signIn" class="gameportal">
+                  <span onclick="document.getElementById('signIn').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <form class="gameportal-content" action="/action_page1.php">
+                    <div class="signupform" align="left">
+                    <h1 color="red">Welcome to the GamePortal</h1>
+                    </div><!-- modal-->  
+                <!-- test -->
                 <br>
                    
                     <!-- sign up  page-->
@@ -96,16 +101,12 @@
                       <div class="clearfix">
                         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                         <button type="submit" class="signupbtn">Sign Up</button>
-
-                </div><!-- end sign up page-->
-                    </div>
+                      </div><!-- end clearfix-->
+                    </div><!-- modal-->  
                   </form>
-          </div> <!-- end  class="left"--> 
-                    
+            </div> <!-- end  class="left"-->  
             <br>
-                
-            </div> <!-- end main div -->
-                
+          </div> <!-- end main div -->
                 <!-- video -->
                 <!-- <div style="text-align:center"> 
                   <button onclick="playPause()">Play/Pause</button> 
@@ -128,7 +129,7 @@
                 <a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
                 <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a> 
           </div>  <!-- end  social icon div -->
-    </div> <!-- end container div -->
+      </div> <!-- end container div -->
 
     </body>
 </html>
