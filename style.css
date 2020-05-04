@@ -85,7 +85,7 @@ body{
 
 .right {
     float:right;
-    font-family:Brush Script MT, Brush Script Std, cursive;
+    /* font-family:Brush Script MT, Brush Script Std, cursive; */
     color:	#000000;
 
 }
