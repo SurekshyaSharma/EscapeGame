@@ -1,5 +1,4 @@
 $(document).ready( function () {
-  var myVideo = document.getElementById("video1"); 
    });
 // ----------See more- button----------------------------------------------------------------------------------------------
 function myFunction() {
@@ -30,7 +29,7 @@ function display(form){
 }
 // navigation----------------------------------------------------------------------------------------------------
 function mynav() {
-  var x = document.getElementById("myTopnav");
+  var x = document.getElementById("myTopnav").style.width = "100%";
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
@@ -58,4 +57,7 @@ window.onclick = function(event) {
   if (event.target == gamePortal) {
     gamePortal.style.display = "none";
   }
+}
+function gameportal(){
+
 }
