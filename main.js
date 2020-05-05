@@ -1,21 +1,12 @@
 
-$(document).ready( function () {
-    myTopNav()
-    seeMore() 
-});
-
-// navigation----------------------------------------------------------------------------------------------------
-function myTopNav() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+function myTopnav() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
-
-
-
+}
 // ----------See more- button----------------------------------------------------------------------------------------------
 function seeMore() {
     var dots = document.getElementById("dots");
