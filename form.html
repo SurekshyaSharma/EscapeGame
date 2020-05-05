@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contact form to email</title>
+    <script type="text/javascript" src="./main.js"></script>
+
+</head>
+
+<body>
+
+    <form onsubmit="registerUser(); return false;">
+        <label for="txtusername">Username</label><br>
+        <input type="text" id="txtusername">   <input type="submit" value="Check Availability" data-mini="true" onclick="return CheckUser()">
+        <br>
+        <label for="txtfirstname">First Name</label><br>
+        <input type="text" id="txtfirstname"><br><br>
+        <label for="txtlastname">Surname</label><br>
+        <input type="text" id="txtlastname" ><br><br>
+        <label for="txtemail">Email</label>
+        <input type="email" id="txtemail" ><br><br>
+        <label for="txtpassword">Password</label>
+        <input type="password" id="txtpassword" ><br><br>
+        <label for="passwordconfirm">Confirm Password</label>
+        <input type="password" id="passwordconfirm" ><br><br>
+        <input type="submit" value="Register User">
+        <input type="submit" value="Delete" onclick="return DeleteUser()">
+    </form>
+
+</body>
+
+</html>
