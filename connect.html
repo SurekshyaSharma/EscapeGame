@@ -10,47 +10,53 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-          <!-- linking stylesheet to HTMl -->
-          <link rel="stylesheet" href="./style.css">
+        <!-- linking stylesheet to HTMl -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- linking javascript to HTMl -->
+        <script type="text/javascript" src="./main.js"></script>
+
     </head>
-<style>
-    body{
+    <style>
+        body{
 
-        background-image: url("worldmap.jpg");
-    }
-    h1{
-        color:white
-    }
-</style>
+            background-image: url("worldmap.jpg");
+        }
+        h1{
+            color:white
+        }
+    </style>
     <body>
+        <div>
+                <div class="topnav" id="myTopnav">
+                    <a href="./index.html" class="active">Home</a>
+                        <a href="./portfolio.html">Portfolio</a>
+                            <!-- <a href="funfacts.html">Fun Facts</a> -->
+                                <a href="./connect.html">Connect</a>
+                            <a href="./about.html">About</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myTopnav()">
+                    <i class="fa fa-bars"></i></a>
+                </div>
 
-        <div align ="center">
-            <h1>Connect</h1>
-            <br>
-            <br>
-            <br>
-            <br>
-         
-           
-            <form  class="form" method="post" action="#" align="center" >
-                <br>
-                <h6>Login to get connected</h6>
-                <label for="uname"><b></b></label>
-                <input type="text" placeholder="Enter Username" name="uname"><br>
-        
-                <label for="psw"><b></b></label>
-                <input type="password" placeholder="Enter Password" name="psw"><br>
-                <!-- <button type="submit"  class="btn btn-secondary btn-sm">Login</button> -->
-                <!-- <button  class="btn btn-secondary btn-sm" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Sign Up</button> -->
-            
-                <button type="submit">Login</button>
-                <button   onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Sign Up</button>
-            </form>
-            <br><br><br><br>
-        
+                <div>
+
+                <div align ="center">
+                    <h1>Connect</h1><br><br><br><br>
+                
+                
+                    <form  class="form" method="post" action="#" align="center" >
+                        <br>
+                            <h6>Login to get connected</h6>
+                                <label for="uname"><b></b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname"><br>
+                                        <label for="psw"><b></b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw"><br>
+                    
+                                <button type="submit">Login</button>
+                            <button   onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Sign Up</button>
+                    </form><br><br><br><br>
+                
+                </div>   
         </div>
-        <!-- my script reference -->
-        <script type="text/javascript" src="./script.js"></script>
         <!-- footer -->
         <div class="grey heavy-rain-gradient" >
             <div class="container" >

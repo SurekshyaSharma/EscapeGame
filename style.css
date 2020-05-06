@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   #container{
-    background: linear-gradient(#37474f 100%, #778899 5%);;
+    background: linear-gradient(#37474f 100%, #778899 5%);
   }
   .topnav {
     overflow: hidden;
@@ -58,44 +58,44 @@ body {
     /*see more-----------------------------------------------------------------------------------*/
     #more {display: none;}
 /* Image---------------------- */
-.responsiveImage {
-    width: 100%;
-    height: auto;
+    .responsiveImage {
+        width: 100%;
+        height: auto;
+        }
+    /* input */
+    input[type=text],input[type=password] {
+
+    padding: 1px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #778899 ;
+    border: 2px solid #778899 ;
     }
-/* input */
-input[type=text],input[type=password] {
-
-padding: 1px 20px;
-margin: 8px 0;
-display: inline-block;
-border-radius: 4px;
-box-sizing: border-box;
-box-shadow: 0 0 5px #778899 ;
-border: 2px solid #778899 ;
-}
 
 
-/* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
-background-color: #f1f1f1;
-outline: none;
-}
+    /* Add a background color when the inputs get focus */
+    input[type=text]:focus, input[type=password]:focus {
+    background-color: #f1f1f1;
+    outline: none;
+    }
+          
+    /* Set a style for all buttons */
+    button {
+        /* background: #778899; */
+        background:#37474f;
+        border: 2px solid linear-gradient(#778899 5%, #778899 100%);
+        color:white;
+      }
       
- /* Set a style for all buttons */
- button {
-    /* background: #778899; */
-    background:#37474f;
-    border: 2px solid linear-gradient(#778899 5%, #778899 100%);
-    color:white;
-  }
-  
-  button:hover {
-    opacity:1;
-    background:linear-gradient(#37474f 5%, #778899 100%);
-  
-    color:rgb(61, 59, 59);
-  }
-  h6{
-    color:white
-  }
+      button:hover {
+        opacity:1;
+        background:linear-gradient(#37474f 5%, #778899 100%);
+      
+        color:rgb(61, 59, 59);
+      }
+      h6{
+        color:white
+      }
   
