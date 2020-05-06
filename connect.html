@@ -11,13 +11,76 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <!-- linking stylesheet to HTMl -->
-        <link rel="stylesheet" href="./style.css">
+        <!-- <link rel="stylesheet" href="./style.css"> -->
         <!-- linking javascript to HTMl -->
         <script type="text/javascript" src="./main.js"></script>
 
     </head>
     <style>
-       
+       /**----navigation*/
+       .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover {
+        background-color: #37474f ;
+        color: white;
+      }
+      .topnav a.active {
+        background: linear-gradient(#37474f 5%, #778899 100%);
+        color: white;
+      }
+      .topnav .icon {
+        display: none;
+      }       
+      
+      Image---------------------- */
+    .responsiveImage {
+        width: 100%;
+        height: auto;
+        }
+    /* input */
+    input[type=text],input[type=password] {
+
+    padding: 1px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #778899 ;
+    border: 2px solid #778899 ;
+    }
+
+
+    /* Add a background color when the inputs get focus */
+    input[type=text]:focus, input[type=password]:focus {
+    background-color: #f1f1f1;
+    outline: none;
+    }
+          
+    /* Set a style for all buttons */
+    button {
+        /* background: #778899; */
+        background:#37474f;
+        border: 2px solid linear-gradient(#778899 5%, #778899 100%);
+        color:white;
+      }
+      
+      button:hover {
+        opacity:1;
+        background:linear-gradient(#37474f 5%, #778899 100%);
+      
+        color:rgb(61, 59, 59);
+      }
     </style>
     <body>
         <div>
