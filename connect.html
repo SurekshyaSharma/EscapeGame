@@ -1,0 +1,168 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>About</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <!-- linking stylesheet to HTMl -->
+        <!-- <link rel="stylesheet" href="./style.css"> -->
+        <!-- linking javascript to HTMl -->
+        <script type="text/javascript" src="./main.js"></script>
+
+    </head>
+    <style>
+        body{
+            border-style: inset;
+            background-image: linear-gradient(to right,#37474f,gray);
+        }
+       /**----navigation*/
+       .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover {
+        background-color: #37474f ;
+        color: white;
+      }
+      .topnav a.active {
+        background: linear-gradient(#37474f 5%, #778899 100%);
+        color: white;
+      }
+      .topnav .icon {
+        display: none;
+      }       
+      
+      Image---------------------- */
+    .responsiveImage {
+        width: 100%;
+        height: auto;
+        }
+    /* input */
+    input[type=text],input[type=password] {
+
+    padding: 1px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #778899 ;
+    border: 2px solid #778899 ;
+    }
+
+
+    /* Add a background color when the inputs get focus */
+    input[type=text]:focus, input[type=password]:focus {
+    background-color: #f1f1f1;
+    outline: none;
+    }
+          
+    /* Set a style for all buttons */
+    button {
+        /* background: #778899; */
+        background:#37474f;
+        border: 2px solid linear-gradient(#778899 5%, #778899 100%);
+        color:white;
+      }
+      
+      button:hover {
+        opacity:1;
+        background:linear-gradient(#37474f 5%, #778899 100%);
+      
+        color:rgb(61, 59, 59);
+      }
+    </style>
+    <body>
+        <div>
+                <div class="topnav" id="myTopnav">
+                    <a href="./index.html" >Home</a>
+                        <a href="./portfolio.html">Portfolio</a>
+                            <!-- <a href="funfacts.html">Fun Facts</a> -->
+                                <a href="#" class="active">Connect</a>
+                            <a href="./about.html" >About</a>
+                   </a>
+                </div>
+
+                <div>
+
+                <div align ="center">
+                    <h1>Connect</h1>
+                
+                
+                    <form  class="form" method="post" action="#" align="center" >
+                        <br>
+                            <h6>Login to get connected</h6>
+                                <label for="uname"><b></b></label>
+                                    <input type="text" placeholder="Enter Username" name="uname"><br>
+                                        <label for="psw"><b></b></label>
+                                    <input type="password" placeholder="Enter Password" name="psw"><br>
+                    
+                                <button type="submit">Login</button>
+                            <button   onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Sign Up</button>
+                    </form>
+                
+                </div>   
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <!-- footer -->
+        <div class="grey heavy-rain-gradient" >
+            <div class="container" >
+        
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+        
+                        <h6 class="mb-0 text-muted"><b>Get connected with me on social networks!</b></h6>
+        
+                    </div>
+                    <!-- Grid column -->
+        
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+        
+                        <!-- Facebook -->
+                        <a class="fb-ic" style="font-size: 1.25rem;" href="https://www.facebook.com/yann.mjl" target="blank">
+                            <i class="fa fa-facebook fa-2x blue-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" style="font-size: 1.25rem;" href="https://twitter.com/YannMjl" target="blank">
+                            <i class="fa fa-twitter fa-2x text-info mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic" style="font-size: 1.25rem;" href="https://www.linkedin.com/in/yannmjl/" target="blank">
+                            <i class="fa fa-linkedin fa-2x blue-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" style="font-size: 1.25rem;" href="https://www.instagram.com/yannmjl/" target="blank">
+                            <i class="fa fa-instagram fa-2x pink-text"> </i>
+                        </a>
+        
+                    </div>
+                    <!-- Grid column -->
+        
+                </div>
+                <!-- Grid row-->
+        
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
