@@ -1,6 +1,7 @@
 body {
     margin: 0;
     border-style: inset;
+    background-image: linear-gradient(to right,#37474f,gray);
 
   }
   #container{
