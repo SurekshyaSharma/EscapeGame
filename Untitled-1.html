@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Su- Website</title>
+        <!-- linking stylesheet to HTMl -->
+        <!-- <link rel="stylesheet" href="./style.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <!-- linking javascript to HTMl -->
+        <script type="text/javascript" src="./main.js"></script>
+    
+        <style>
+                * {
+                box-sizing: border-box;
+                }
+                body{
+                    border-style: inset;
+                    background-image: linear-gradient(to right,#37474f,gray);
+
+                }
+               
+                h1 {
+                font-size: 50px;
+                word-break: break-all;
+                }
+
+                .row {
+                margin: 8px -16px;
+                }
+
+                /* Add padding BETWEEN each column */
+                .row,
+                .row > .column {
+                padding: 8px;
+                }
+
+                /* Create four equal columns that floats next to each other */
+                .column {
+                float: left;
+                width: 25%;
+                }
+
+                /* Clear floats after rows */ 
+                .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+
+                /* Content */
+                .content {
+                background-color: white;
+                padding: 10px;
+                }
+
+                /* Responsive layout - makes a two column-layout instead of four columns */
+                @media screen and (max-width: 900px) {
+                .column {
+                    width: 50%;
+                }
+                }
+
+                /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 600px) {
+                .column {
+                    width: 100%;
+                }
+                }
+                img {
+                    border: 1px solid #ddd; /* Gray border */
+                    border-radius: 4px;  /* Rounded border */
+                    padding: 5px; /* Some padding */
+                    width: 150px; /* Set a small width */
+                }
+                
+                /* Add a hover effect (blue shadow) */
+                img:hover {
+                box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+                transform: scaleX(1.1);
+                }
+
+                a{
+                color:black;
+                text-decoration:none;
+                }
+                /**----navigation*/
+                .topnav {
+                    overflow: hidden;
+                    background-color: #333;
+
+                  }
+                                
+                  .topnav a {
+                    float: left;
+                    display: block;
+                    color: #f2f2f2;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 17px;
+                  }
+                  .topnav a:hover {
+                    background-color: #37474f ;
+                    color: white;
+                  }
+                  .topnav a.active {
+                    background: linear-gradient(#37474f 5%, #778899 100%);
+                    color: white;
+                  }
+                  .topnav .icon {
+                    display: none;
+                  }  
+                  h4{
+                      color:white;
+                  }
+                  
+        </style>
+        </head>
+        <body>
+            <div>
+                <div class="topnav" id="myTopnav">
+                    <a href="./index.html">Home</a>
+                        <a href="#"class="active">Portfolio</a>
+                            <!-- <a href="funfacts.html">Fun Facts</a> -->
+                                <a href="./connect.html">Connect</a>
+                            <a href="./about.html">About</a>
+                        <!-- <a href="javascript:void(0);" class="icon" onclick="myTopnav()"> -->
+                </a>
+                </div>
+            
+                    <h4 align="center"> List of some of my work</h4>
+                    <a href=./contact.html>
+                        <div class="column">
+                            <div class="content">
+                                <a href="https://awlgames.com/gameportal/" target=_blank>
+                                    <img src="awl_login.PNG" alt="Mountains" style="width:100%"></a>
+                                    <h3>Escape Room Game Portal </h3>
+                                <p>Javacript, HTML, CSS, jQuery, HTTP</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href=https://surekshyasharma.github.io/UST_Job_Listing/>
+                        <div class="column">
+                            <div class="content">
+                                <img src="UStJobPortal.jpg" alt="Lights" style="width:100%">
+                                    <h3>Ust Job Listing</h3>
+                                <p>Javacript, HTML, CSS, jQuery, Ajax</p>
+                            </div>
+                        </div>
+                    </a>
+            
+                    <a href=https://yannmjl.github.io/Embed-Script-OneStThomas/ target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="Sthomaswe.jpg" alt="Nature" style="width:100%">
+                                    <h3>Web Directory</h3>
+                                <p>Javacript, HTML, CSS, jQuery, Ajax</p>
+                            </div>
+                        </div>
+                    </a>
+            
+                    <a href=https://stthomas.force.com/applicantportal/USTEventRegister?instanceID=a340a0000035bRd target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="flyin.jpg" alt="Mountains" style="width:100%">
+                                    <h3>Fly In Form</h3>
+                                <p>Javacript, HTML, Foundation</p>
+                            
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href=https://github.com/SurekshyaSharma/HealthCareMangement.git/ target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="javaP.jpg" alt="JavaLogo" style="width:100%">
+                                    
+                                    <h3>HealthCare Management</h3>
+                                    <p>Object Oriented-Java Projects</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href=https://github.com/SurekshyaSharma/SuperBanking target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="javaP.jpg" alt="JavaLogo" style="width:100%">
+                                    <h3>SuperBanking </h3>
+                                    <p>Object Oriented-Java Projects</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href=https://github.com/SurekshyaSharma/BinarySearchTree target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="javaP.jpg" alt="JavaLogo" style="width:100%">
+                                    <h3>Binary Search Tree </h3>
+                                    <p>Object Oriented-Java Projects</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href=https://github.com/SurekshyaSharma/p_1_skunk/ target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="javaP.jpg" alt="JavaLogo" style="width:100%">
+                                    <h3>Skunk App</h3>
+                                    <p>Object Oriented-Java Projects</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href=https://github.com/SurekshyaSharma/Polymorphisim target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="javaP.jpg" alt="JavaLogo" style="width:100%">
+                                    <h3>PolyMorphism</h3>
+                                    <p>Object Oriented-Java Projects</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href=https://github.com/SurekshyaSharma/CrapsSimulationtarget target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="javaP.jpg" alt="JavaLogo" style="width:100%">
+                                    <h3>CrapsSimulation</h3>
+                                    <p>Object Oriented-Java Projects</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href=https://www.stthomas.edu/admissions/undergraduate/index.html target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="locate.PNG" alt="Mountains" style="width:100%">
+                                    <h3>Locate you Counselor</h3>
+                                <p>Cascade Management System, Javacript, HTML,  </p>
+                            </div>
+                        </div>
+                    </a>
+            
+                    <!-- <a href=https://surekshyasharma.github.io/Resume/>
+                        <div class="column">
+                            <div class="content">
+                                <img src="resume.jpg" alt="Mountains" style="width:100%">
+                                    <h3>Resume </h3>
+                                <p>Very Simple </p>
+                            </div>
+                        </div>
+                    </a> -->
+                    <a href=https://repl.it/repls/StickyLeadingCharacter?lite=true target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="download.jpg" alt="Mountains" style="width:100%">
+                                    <h3>Python</h3>
+                                <p>Python</p>
+                            </div>
+                        </div>
+                    </a>
+            <a>
+                <div class="content">
+                    <a href="https://banner.stthomas.edu/PROD/twbkwbis.P_GenMenu?name=homepage" target=_blank>
+                    <img src="stthomasMurphy.jpg" alt="Bear" style="width:100%"></a>
+                        <h3>Some Other Work</h3>
+                            
+                </div>
+            </a>
+            <a href=https://surekshyasharma.github.io/tipCalulator/ target=_blank>
+                        <div class="column">
+                            <div class="content">
+                                <img src="Tip Calculator.PNG" alt="Mountains" style="width:100%">
+                                    <h3>Tip Calculator</h3>
+                            
+                            </div>
+                        </div>
+            </a>
+            <a href=https://surekshyasharma.github.io/AssignmentCalculator target=_blank>
+                <div class="column">
+                    <div class="content">
+                        <img src="ass.PNG" alt="Mountains" style="width:100%">
+                            <h3>Assignment Calculator</h3>
+                
+                    </div>
+                </div>
+            </a>
+            <a href=https://surekshyasharma.github.io/WebsiteforMe/portfolio.html target=_blank>
+                <div class="column">
+                    <div class="content">
+                        <img src="wesite.PNG" alt="wesite" style="width:100%">
+                            <h3>My Portfolio</h3>
+                        
+                </div>
+            </a>
+    </div>
+        </body>
+</html>
